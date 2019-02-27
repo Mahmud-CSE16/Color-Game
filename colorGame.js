@@ -37,7 +37,7 @@ resetButton.addEventListener("click",function(){
 });
 
 function reset(){
-	this.textContent = "New clolors";
+	resetButton.textContent = "New Colors"
 	messageDisplay.textContent="";
 	colors = generateRandomColors(numSquare);
 	pickedColor = pickColor();
