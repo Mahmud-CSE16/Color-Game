@@ -95,7 +95,7 @@ for(var i = 0 ; i < squares.length; i++){
 		   messageDisplay.textContent = "Correct!";
 		   changeColors(clickedColor);
 		   h1.style.backgroundColor=pickedColor;
-		   resetButton.textContent = "Play Again"
+		   resetButton.textContent = "New Colors"
 		}else{
 			messageDisplay.textContent = "Try again";
 			this.style.backgroundColor = "#232323";
